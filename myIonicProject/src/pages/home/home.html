@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding ng-controller="contentCtrl" ng-app="content">
+  <h2>Welcome to MYMusic!</h2>
+  <div class="home-search">
+    <input type="text" value="fade">
+    <button>搜索</button>
+  </div>
+  <ul class="song-lists">
+    <li *ngFor="let item of datas">{{item.name}}</li>
+    <!-- <li>{{datas.}}</li> -->
+  </ul>
+</ion-content>

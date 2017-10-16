@@ -1,0 +1,34 @@
+page-home {
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	ul{
+		li{
+			list-style-type: none;
+		}
+	}
+	.home-search{
+		margin-top: 20px;
+		overflow: hidden;
+		input{
+			padding-left: 10px;
+			box-sizing: border-box;
+			display: inline-block;
+			vertical-align: top;
+			width: 200px;
+			height: 30px;
+			line-height: 30px;
+			font-size: 16px;
+			border: 1px solid gray;
+			outline: none;
+		}
+		button{
+			box-sizing: border-box;
+			height: 30px;
+			border: 1px solid gray;
+			background: gray;
+			color: #fcfcfc;
+		}
+	}
+}
